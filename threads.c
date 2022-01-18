@@ -10,11 +10,10 @@
  * FUNCTION NAME :      main
  *
  * DESCRIPTION:
- *      Each of five threads calculate the 10,000th number in the Fibonacci Sequence.
+ *      Each of the child threads perform Sieve of Eratosthenes to find
+ *      all prime numbers up to 10,000.
  *
  * PARAMETERS:
- *      argc    Number of arguments
- *      argv    Arguments
  *
  * RETURN VALUES:
  *
@@ -101,12 +100,12 @@ int main (void)
  * FUNCTION NAME :      sieve
  *
  * DESCRIPTION:
- *      Edit later.
+ *      Sieve of Eratosthenes - finds all prime numbers up to 10,000, and
+ *      inputs them into a text file.
  *
  * PARAMETERS:
  *
  * RETURN VALUES:
- *      int     Prime numbers between 0 and 100,000
  *
  * AUTHOR :     Blogs Dope
  *              https://www.codesdope.com/blog/article/prime-numbers-using-sieve-algorithm-in-c/
