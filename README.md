@@ -2,11 +2,11 @@
 
 COMP 8005 - Assignment 1
 
-To run processes.c:
+## To run processes.c:
 
 gcc processes.c -o processes.out
 
-To run threads.c:
+## To run threads.c:
 
 gcc threads.c -o threads.out -pthread
 
